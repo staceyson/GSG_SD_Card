@@ -74,3 +74,77 @@ where X =
 22, 24, 29 spinner, dpad, and trackball all work
 various other values in range 1 - 30 set spinner mode to different event types (EV_REL, EV_ABS, EV_KEY)
 Tempest uses 22 (EV_KEY - KEY_LEFT|KEY_RIGHT)
+
+
+'gsgparm' Utility Program
+=========================
+The LED light configuration and keymode can also be set with the
+'gsgparm' command-line utility program that is included. The 'gsgparm'
+command-line options as follows:
+
+To turn on LED lights:
+-1 <lights> where the lights are specified in a comma separated list
+            with the following members:
+              "tball"     is the trackball LED
+              "spin"      is the spinner LED
+              "dpad"      is the d-pad joystick LED
+              "A"         is the A button LED
+              "B"         is the B button LED
+              "X"         is the X button LED
+              "Y"         is the X button LED
+              "R1"        is the R1 shoulder button LED
+              "L1"        is the L1 shoulder button LED
+              "R2"        is the R2 shoulder button LED
+              "L2"        is the L2 shoulder button LED
+              "1"         is keypad number 1 key LED
+              "2"         is keypad number 2 key LED
+              "3"         is keypad number 3 key LED
+              "4"         is keypad number 4 key LED
+              "5"         is keypad number 5 key LED
+              "6"         is keypad number 6 key LED
+              "7"         is keypad number 7 key LED
+              "8"         is keypad number 8 key LED
+              "9"         is keypad number 9 key LED
+              "0"         is keypad number 0 key LED
+              "S"         is keypad number * (star) key LED
+              "P"         is keypad number # (pound) key LED
+           or, as a shortcut:
+              "all"       is all the LEDs
+
+To turn off LED lights:
+-0 <lights> where the lights are specified the same as above.
+
+To set the keymode:
+-k <num>    where <num> is the keymode
+
+Other command-line options for 'gsgparm', that might be useful, include:
+-b <num>      Set Display Brightness to <num> where 2=Dim, 252=Bright
+              or somewhere in between
+
+-m <num>      Set Background Music to <num> where Off=0, On=1
+
+
+Command-line options ONLY for My Arcade's 'retroarch' include:
+-a <num>      Set Display Aspect Ratio to <num> where Widescren=0, Original=1
+
+-i <num>      Set Aspect_Ratio_Index to <num> where 4:3=0, 3:4=8
+
+Examples:
+  (1) To turn on only the D-Pad, A, B, X, and Y button LED lights.
+      All other LEDs turrned off.  Set the keymode to 0.
+
+      gsgparm -0 all -1 dpad,A,B,X,Y -k 0
+
+  (2) To turn on the 1, 3, and 5 keypad LED lights, leaving the
+      state of the other LEDs as they are. Set the keymode to 18.
+
+      gsgparm -1 1,3,5 -k 18
+
+      Note:
+      This LED configuration is used with most of the retroarch cores below.
+      The 1 keypad button is use to save the game state, the 3 keypad button
+      is use to load the game state, and the 5 keypad button is used to
+      take a screenshot. By default (depending on the cfg file) the game
+      states are saved in /sdcard/retroarch/states/<emulator core name> and
+      the screenshots are stored in
+      /sdcard/retroarch/screenshots/<emulator core name>.

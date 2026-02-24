@@ -1,0 +1,15 @@
+
+Atari 2600
+
+File Extension: .a26
+	Format: .a26
+
+    BIOS Files: Not required
+	
+Notes:
+
+Can usually simply rename .bin format ROMs to .a26
+
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot

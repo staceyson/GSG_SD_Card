@@ -1,0 +1,23 @@
+
+Neo Geo (arcade)
+
+File Extension: .zip
+	Format: .zip
+
+    BIOS Files: neogeo.zip
+
+    BIOS files must be placed in the folder retroarch/system on your SD card
+
+
+Select adds a credit
+X button is "A"
+A button is "B"
+Y button is "C"
+B button is "D"
+Select button resets the game
+Credit adds a credit
+
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

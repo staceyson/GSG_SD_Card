@@ -1,0 +1,22 @@
+
+Sega CD
+
+File Extension: .bin/.cue
+	Format: .bin/.cue
+
+    BIOS Files: Bios_cd_e.bin,Bios_cd_j.bin,Bios_cd_U.bin,Eu_mcd1_9210.bin,Jp_mcd1_9112.bin,Us_scd1_9210.bin
+
+    BIOS files must be placed in the folder retroarch/system on your SD card
+
+
+Notes:
+
+This version of retroarch has problems if there is more than one bin file, you'll need to convert the game to one bin and one cue per game
+
+X button is "A"
+A button is "B"
+B button is "C"
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

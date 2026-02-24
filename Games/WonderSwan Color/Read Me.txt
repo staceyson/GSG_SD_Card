@@ -1,0 +1,19 @@
+
+WonderSwan Color
+
+File Extension: .wsc
+	Format: .wsc
+
+    BIOS Files: Not required
+
+X button is "B"
+A button is "A"
+Select rotates screen 90 degrees counter-clockwise and back
+L1 is Y Cursor Left
+R1 is Y Cursor Right
+L2 is Y Cursor Down
+R2 is Y Cursor Up
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

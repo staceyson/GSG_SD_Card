@@ -1,0 +1,16 @@
+
+Atari 5200
+
+File Extension: .a52
+	Format: .a52
+
+    BIOS Files: Some games require original BIOS - 5200.rom
+
+    BIOS files must be placed in the folder retroarch/system on your SD card
+
+	        Default BIOS is Altirra 5200
+
+Notes:
+
+Can usually simply rename .bin format ROMs to .a52
+

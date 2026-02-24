@@ -1,0 +1,17 @@
+
+MAME | Arcade
+
+
+File Extension: .zip
+	Format: .zip
+
+    BIOS Files: Not required
+
+       Artwork: Place in retroarch/system/mame2003/artwork in your SD card
+       Samples: Place in retroarch/system/mame2003/samples in your SD card
+
+Notes:
+
+Some games that have artwork files (e.g., Donkey Kong) exhibit loud clicking
+when played on the Gamestation Go; either remove the respective artwork file
+or play via the HDMI output

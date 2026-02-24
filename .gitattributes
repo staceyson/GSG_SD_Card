@@ -1,0 +1,2 @@
+bin/retroarch filter=lfs diff=lfs merge=lfs -text
+retroarch/cores/*.so filter=lfs diff=lfs merge=lfs -text

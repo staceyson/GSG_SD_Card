@@ -1,0 +1,76 @@
+GSG button values in Retroarch config files
+1 - keypad1
+2 - keypad2
+3 - keypad3
+4 - keypad4
+5 - keypad5
+6 - keypad6
+7 - keypad7
+8 - keypad8
+9 - keypad9
+* - num9
+0 - keypad0
+# - num0
+
+select - rshift
+start - return
+credit - num5
+home - esc
+
+y - s (labeled x (up) in GUI and in cfg files)
+x - a (labeled y (left) in GUI and in cfg files)
+b - x (labeled a (right) in GUI and in cfg files)
+a - z (labeled b (down) in GUI and in cfg files)
+
+down - down
+left - left
+right - right
+up - up
+
+l2 - comma
+l - q
+r2 - period
+r - w
+
+
+Script settings for button LEDs and control activation:
+On  - echo 255 > /sys/class/leds/key_ledX/brightness
+Off - echo 0 > /sys/class/leds/key_ledX/brightness
+
+where X =
+---------
+1-9 keypad 1-9
+10  keypad *
+11  keypad 0
+12  keypad #
+13  trackball
+14  spinner
+15  dpad
+16  A
+17  B
+18  X
+19  Y
+20  L1
+21  L2
+22  R1
+23  R2
+
+
+Track Ball
+==========
+Turning light on/off triggers add/del of device
+echo 255 > /sys/class/leds/key_led13/brightness
+echo 0 > /sys/class/leds/key_led13/brightness
+
+
+Keypad and Spinner
+==================
+echo X > /sys/devices/platform/usb_control/key_mode
+
+where X =
+---------
+10, 15, 20, 27 disable the dpad and trackball the moment you use the spinner, spinner works fine for Super Breakout, act very weird for other games
+18, 21 keypad on
+22, 24, 29 spinner, dpad, and trackball all work
+various other values in range 1 - 30 set spinner mode to different event types (EV_REL, EV_ABS, EV_KEY)
+Tempest uses 22 (EV_KEY - KEY_LEFT|KEY_RIGHT)

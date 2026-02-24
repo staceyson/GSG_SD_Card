@@ -1,0 +1,19 @@
+
+GameBoy Color
+
+File Extension: .gb | .gbc
+	Format: .gb | .gbc
+
+    BIOS Files: gbc_bios.bin
+
+		Only required for "Nintendo" title screen and Enchaned Color
+		for GameBoy games
+
+    BIOS files must be placed in the folder retroarch/system on your SD card
+	        
+X button is "B"
+A button is "A"
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

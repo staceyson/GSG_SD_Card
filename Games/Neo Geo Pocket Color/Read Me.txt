@@ -1,0 +1,14 @@
+
+NeoGeo Pocket Color
+
+File Extension: .ngc
+	Format: .ngc
+
+    BIOS Files: Not required
+
+X button is "A"
+A button is "B"
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

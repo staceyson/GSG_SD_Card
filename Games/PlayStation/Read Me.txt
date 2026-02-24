@@ -1,0 +1,30 @@
+PlayStation | PSX
+
+File Extension: .pbp
+	Format: .pbp
+
+    BIOS Files: Not required
+	        
+Notes:
+
+Some .img files can simply be renamed to .pbp
+
+Instructions and tools for converting from .chd and .bin/.cue can be found at:
+
+ https://i12bretro.github.io/tutorials/0323.html
+
+Additional tools for packaging as .pbp on non-Windows OSes can be found at:
+
+ https://github.com/RupertAvery/PSXPackager
+
+Buttons should be laid out like the Playstation controller
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart
+
+To change discs in multidisc games:
+Press Keypad 8 to "eject" the disc
+Press 9 to select the next disc (press 7 to go to the previous disc)
+Press 8 to "close" the disc tray
+Press Credit to reboot the emulator core

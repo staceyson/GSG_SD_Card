@@ -1,0 +1,19 @@
+
+Intellivision
+
+File Extension: .int
+	Format: .int
+
+    BIOS Files: exec.bin, grom.bin, ivoice.bin, ecs.bin
+
+    BIOS files must be placed in the folder retroarch/system on your SD card
+
+Notes:
+
+Using a Gamestation Pro joystick, plugged into USB 1 fixes the D-Pad up issue.
+
+Pressing "Select" on the GSG will swap controllers left/right which is needed
+for some games.
+
+
+

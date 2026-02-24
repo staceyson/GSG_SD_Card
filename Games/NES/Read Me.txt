@@ -1,0 +1,16 @@
+
+NES | Nintendo Entertainment System
+
+File Extension: .nes
+	Format: .nes
+
+    BIOS Files: Not required
+
+X button is "B"
+A button is "A"
+Y button is "Turbo B"
+B button is "Turbo A"
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

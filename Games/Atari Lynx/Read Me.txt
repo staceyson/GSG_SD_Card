@@ -1,0 +1,17 @@
+
+Atari Lynx
+
+File Extension: .lnx
+	Format: .lnx
+
+    BIOS Files: Not required
+
+Notes:
+
+Press "Select" to change screen orientation
+X button is "B"
+A button is "A"
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

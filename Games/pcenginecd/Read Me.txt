@@ -1,0 +1,19 @@
+
+PC Engine CD/Turbografx 16 CD
+
+File Extension: .chd
+	Format: .chd
+
+    BIOS Files: syscard3.pce
+
+    BIOS files must be placed in the folder retroarch/system on your SD card
+
+
+X button is "2"
+A button is "1"
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart
+
+L2 I think is turbo switch, but it seems buggy, mine kept pressing left as well

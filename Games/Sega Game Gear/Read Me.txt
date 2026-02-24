@@ -1,0 +1,14 @@
+
+Game Gear
+
+File Extension: .gg
+	Format: .gg
+
+    BIOS Files: Not required
+
+A button is "1"
+B button is "2"
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

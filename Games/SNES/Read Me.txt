@@ -1,0 +1,14 @@
+
+Super NES | Super Nintendo
+
+File Extension: .sfc
+	Format: .sfc
+
+    BIOS Files: Not required
+
+Face buttons are the same layout as a Super Nintendo controller (A and B are switched, X and Y are switched)
+L1 and R1 are the shoulder buttons
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

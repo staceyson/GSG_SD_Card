@@ -1,0 +1,19 @@
+
+Sega 32x
+
+File Extension: .32x (embed it in a zip file)
+	Format: .32x
+
+    BIOS Files: Not required
+
+Notes:
+
+SD card browser hides 32x files, put each game in a separate zip file
+
+X button is "A"
+A button is "B"
+B button is "C"
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

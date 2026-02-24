@@ -1,0 +1,15 @@
+
+Atari 7800
+
+File Extension: .a78
+	Format: .a78
+
+    BIOS Files: Not required
+    
+    
+Notes:
+
+Keypad button 1 sets a save state
+Keypad button 3 loads the save state
+Keypad button 5 takes a screenshot
+Credit button resets the cart

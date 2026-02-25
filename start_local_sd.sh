@@ -45,11 +45,11 @@ export PATH="$LOCAL_BIN:$PATH"
 if [ -f "$LOCAL_BIN"/retroarch ]; then
     mkdir -p "$LOCAL_BIN"
     cp /sdcard/bin/retroarch "$LOCAL_BIN"
-    chomod 755 "$LOCAL_BIN/retroarch"
+    chmod 755 "$LOCAL_BIN/retroarch"
     cp /sdcard/bin/gsgparm "$LOCAL_BIN"
-    chomod 755 "$LOCAL_BIN/gsgparm"
+    chmod 755 "$LOCAL_BIN/gsgparm"
     cp /sdcard/bin/hotkeyd "$LOCAL_BIN"
-    chomod 755 "$LOCAL_BIN/hotkeyd"
+    chmod 755 "$LOCAL_BIN/hotkeyd"
 fi
 
 # Make sure hotkeyd is running in the background
